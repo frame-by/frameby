@@ -159,7 +159,7 @@ html,body {
 
 @supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
     #ac-globalnav {
-        background:rgba(0,0,0,0.8);
+        background:rgb(0,37,60);
         -webkit-backdrop-filter: saturate(180%) blur(20px);
         backdrop-filter: saturate(180%) blur(20px)
     }
@@ -1117,26 +1117,26 @@ html,body {
 }
 
 #ac-globalnav .ac-gn-link-apple {
-    background-size: 16px 44px;
+    background-size: 38px 44px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg");
+    background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/logo/Top_Menu/frameby_logo.svg");
     background-position: center center;
     width: 16px
 }
 
 #ac-globalnav.no-svg .ac-gn-link-apple {
-    background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.png")
+    background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/logo/Top_Menu/frameby_logo.png")
 }
 
 @media only screen and (max-width: 767px) {
     #ac-globalnav .ac-gn-link-apple {
-        background-size:18px 48px;
+        background-size:40px 48px;
         background-repeat: no-repeat;
-        background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_small.svg")
+        background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/logo/Top_Menu/frameby_logo_small.svg")
     }
 
     #ac-globalnav.no-svg .ac-gn-link-apple {
-        background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_small.png")
+        background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/logo/Top_Menu/frameby_logo_small.png")
     }
 }
 
@@ -1151,29 +1151,29 @@ html,body {
 }
 
 #ac-globalnav .ac-gn-link-mac {
-    background-size: 26px 44px;
+    background-size: 60px 44px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_mac_image__fv4ktb435mum_large.svg");
+    background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/logo/Top_Menu/menu_framecase.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
-    width: 1.85714em;
+    width: 3em;
     max-width: 44.2px
 }
 
 #ac-globalnav.no-svg .ac-gn-link-mac {
-    background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_mac_image__fv4ktb435mum_large.png")
+    background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/logo/Top_Menu/menu_framecase.png")
 }
 
 @media only screen and (max-width: 767px) {
     #ac-globalnav .ac-gn-link-mac {
-        background-size:34px 43px;
+        background-size:60px 43px;
         background-repeat: no-repeat;
-        background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_mac_image__fv4ktb435mum_small.svg")
+        background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/logo/Top_Menu/menu_framecase.svg")
     }
 
     #ac-globalnav.no-svg .ac-gn-link-mac {
-        background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_mac_image__fv4ktb435mum_small.png")
+        background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/logo/Top_Menu/menu_framecase.png")
     }
 }
 
