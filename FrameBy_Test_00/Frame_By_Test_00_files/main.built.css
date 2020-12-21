@@ -5720,13 +5720,13 @@ html body.ac-nav-overlap #ac-gn-placeholder {
     height: 33px;
     background-size: 260px 33px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/v/home/ez/images/logos/music-award/logo__dcojfwkzna2q_large.png");
+    background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/img/Body_Banner_5/logo/body_banner_5_logo_large.svg");
     background-position: center
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
     .logo-image-music-award-logo {
-        background-image:url("https://www.apple.com/v/home/ez/images/logos/music-award/logo__dcojfwkzna2q_large_2x.png")
+        background-image:url("https://frame-by.github.io/frameby/FrameBy_Test_00/img/Body_Banner_5/logo/body_banner_5_logo_large_2x.svg")
     }
 }
 
@@ -5736,13 +5736,13 @@ html body.ac-nav-overlap #ac-gn-placeholder {
         height: 27px;
         background-size: 208px 27px;
         background-repeat: no-repeat;
-        background-image: url("https://www.apple.com/v/home/ez/images/logos/music-award/logo__dcojfwkzna2q_medium.png")
+        background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/img/Body_Banner_5/logo/body_banner_5_logo_medium.svg")
     }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .logo-image-music-award-logo {
-        background-image:url("https://www.apple.com/v/home/ez/images/logos/music-award/logo__dcojfwkzna2q_medium_2x.png")
+        background-image:url("https://frame-by.github.io/frameby/FrameBy_Test_00/img/Body_Banner_5/logo/body_banner_5_logo_medium_2x.svg")
     }
 }
 
@@ -5752,13 +5752,13 @@ html body.ac-nav-overlap #ac-gn-placeholder {
         height: 41px;
         background-size: 215px 41px;
         background-repeat: no-repeat;
-        background-image: url("https://www.apple.com/v/home/ez/images/logos/music-award/logo__dcojfwkzna2q_small.png")
+        background-image: url("https://frame-by.github.io/frameby/FrameBy_Test_00/img/Body_Banner_5/logo/body_banner_5_logo_small.svg")
     }
 }
 
 @media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     .logo-image-music-award-logo {
-        background-image:url("https://www.apple.com/v/home/ez/images/logos/music-award/logo__dcojfwkzna2q_small_2x.png")
+        background-image:url("https://frame-by.github.io/frameby/FrameBy_Test_00/img/Body_Banner_5/logo/body_banner_5_logo_small_2x.svg")
     }
 }
 
