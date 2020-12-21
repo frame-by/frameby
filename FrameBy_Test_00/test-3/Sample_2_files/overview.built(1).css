@@ -1,0 +1,1549 @@
+body .icon-wrapper .icon-after::after, body .icon-wrapper .more::after {
+    transform: translateY(-2px);
+    display: inline-block;
+}
+
+.hero-cta-li.hero-cta-second .icon-after::after {
+    transform: translateY(0);
+}
+
+html.enhance-base-xp.enhance-fiveg .section-5g .wrapper-sticky .copy-large.large-5.column .wrapper-body-large .modal-button-wrapper {
+    top: 540px;
+}
+
+.section-subhead.typography-section-headline-elevated.copy-dynamic.will-change-contents {
+    margin-top: 6px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-subhead.typography-section-headline-elevated.copy-dynamic.will-change-contents {
+        margin-top: 6px;
+    }
+}
+
+.section-5g .innovation-callout-keyline {
+    margin-top: 34px;
+}
+
+.custom-margin-magsafe {
+    margin-top: 0;
+}
+
+.section-accessories .accessories-magsafe .accessories-magsafe-copy-body .date-for-magsafe {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.accessories-magsafe-copy-body.column.large-6.small-12.small-order-1 {
+    margin-top: 73px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .accessories-magsafe-copy-body.column.large-6.small-12.small-order-1 {
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .accessories-magsafe-copy-body.column.large-6.small-12.small-order-1 {
+        margin-top: 0;
+    }
+}
+
+.section-headline.typography-section-headline.headline {
+    padding-right: 5px !important;
+}
+
+.section-hero .hero-headline {
+    font-weight: 700;
+}
+
+.section-accessories .accessories-magsafe .image-magsafe {
+    width: 396px;
+    height: 393px;
+    background-size: 396px 393px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/accessories/magsafe__emhukwz2mhiu_large.jpg");
+    background-position: center
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-accessories .accessories-magsafe .image-magsafe {
+        background-image: url("/kr/iphone-12/d/images/overview/accessories/magsafe__emhukwz2mhiu_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-accessories .accessories-magsafe .image-magsafe {
+        width: 282px;
+        height: 280px;
+        background-size: 282px 280px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/accessories/magsafe__emhukwz2mhiu_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-accessories .accessories-magsafe .image-magsafe {
+        background-image: url("/kr/iphone-12/d/images/overview/accessories/magsafe__emhukwz2mhiu_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-accessories .accessories-magsafe .image-magsafe {
+        width: 271px;
+        height: 269px;
+        background-size: 271px 269px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/accessories/magsafe__emhukwz2mhiu_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-accessories .accessories-magsafe .image-magsafe {
+        background-image: url("/kr/iphone-12/d/images/overview/accessories/magsafe__emhukwz2mhiu_small_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-accessories .accessories-magsafe .image-magsafe {
+        margin-top: 26px
+    }
+}
+
+.section-ar .image-ar-blue {
+    width: 439px;
+    height: 560px;
+    background-size: 439px 560px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ar/ar_blue__dielwf4yr8ia_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ar .image-ar-blue {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_blue__dielwf4yr8ia_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ar .image-ar-blue {
+        width: 458px;
+        height: 583px;
+        background-size: 458px 583px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_blue__dielwf4yr8ia_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-blue {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_blue__dielwf4yr8ia_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-ar .image-ar-blue {
+        width: 272px;
+        height: 346px;
+        background-size: 272px 346px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_blue__dielwf4yr8ia_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-blue {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_blue__dielwf4yr8ia_small_2x.jpg")
+    }
+}
+
+.section-ar .image-ar-green {
+    width: 439px;
+    height: 560px;
+    background-size: 439px 560px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ar/ar_green__gg717e1t4viq_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ar .image-ar-green {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_green__gg717e1t4viq_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ar .image-ar-green {
+        width: 458px;
+        height: 583px;
+        background-size: 458px 583px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_green__gg717e1t4viq_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-green {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_green__gg717e1t4viq_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-ar .image-ar-green {
+        width: 272px;
+        height: 346px;
+        background-size: 272px 346px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_green__gg717e1t4viq_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-green {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_green__gg717e1t4viq_small_2x.jpg")
+    }
+}
+
+.section-ar .image-ar-red {
+    width: 439px;
+    height: 560px;
+    background-size: 439px 560px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ar/ar_red__dgapek615s4m_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ar .image-ar-red {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_red__dgapek615s4m_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ar .image-ar-red {
+        width: 458px;
+        height: 583px;
+        background-size: 458px 583px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_red__dgapek615s4m_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-red {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_red__dgapek615s4m_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-ar .image-ar-red {
+        width: 272px;
+        height: 346px;
+        background-size: 272px 346px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_red__dgapek615s4m_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-red {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_red__dgapek615s4m_small_2x.jpg")
+    }
+}
+
+.section-ar .image-ar-white {
+    width: 439px;
+    height: 560px;
+    background-size: 439px 560px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ar/ar_white__dqrd3bzjhbiq_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ar .image-ar-white {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_white__dqrd3bzjhbiq_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ar .image-ar-white {
+        width: 458px;
+        height: 583px;
+        background-size: 458px 583px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_white__dqrd3bzjhbiq_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-white {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_white__dqrd3bzjhbiq_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-ar .image-ar-white {
+        width: 272px;
+        height: 346px;
+        background-size: 272px 346px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_white__dqrd3bzjhbiq_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-white {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_white__dqrd3bzjhbiq_small_2x.jpg")
+    }
+}
+
+.section-ar .image-ar-black {
+    width: 439px;
+    height: 560px;
+    background-size: 439px 560px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ar/ar_black__c0kb3d8rxbcm_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ar .image-ar-black {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_black__c0kb3d8rxbcm_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ar .image-ar-black {
+        width: 458px;
+        height: 583px;
+        background-size: 458px 583px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_black__c0kb3d8rxbcm_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-black {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_black__c0kb3d8rxbcm_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-ar .image-ar-black {
+        width: 272px;
+        height: 346px;
+        background-size: 272px 346px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_black__c0kb3d8rxbcm_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-ar .image-ar-black {
+        background-image: url("/kr/iphone-12/d/images/overview/ar/ar_black__c0kb3d8rxbcm_small_2x.jpg")
+    }
+}
+
+.section-design .section-design-materials .section-aluminum-edges .image-aluminum-edges {
+    width: 145px;
+    height: 2276px;
+    background-size: 145px 2276px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/design/design_edge__r8nky7797oae_large.jpg");
+    left: 8px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    width: image-width("overview_design_design_edge")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-design .section-design-materials .section-aluminum-edges .image-aluminum-edges {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_edge__r8nky7797oae_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-design .section-design-materials .section-aluminum-edges .image-aluminum-edges {
+        width: 107px;
+        height: 1642px;
+        background-size: 107px 1642px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_edge__r8nky7797oae_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-design .section-design-materials .section-aluminum-edges .image-aluminum-edges {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_edge__r8nky7797oae_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-design .section-design-materials .section-aluminum-edges .image-aluminum-edges {
+        width: 96px;
+        height: 1506px;
+        background-size: 96px 1506px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_edge__r8nky7797oae_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-design .section-design-materials .section-aluminum-edges .image-aluminum-edges {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_edge__r8nky7797oae_small_2x.jpg")
+    }
+}
+
+.section-design .water-resistance .image-hardware {
+    width: 946px;
+    height: 1446px;
+    background-size: 946px 1446px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/design/design_h2ok__dw6rbktprpm6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-design .water-resistance .image-hardware {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_h2ok__dw6rbktprpm6_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-design .water-resistance .image-hardware {
+        width: 761px;
+        height: 1233px;
+        background-size: 761px 1233px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_h2ok__dw6rbktprpm6_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-design .water-resistance .image-hardware {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_h2ok__dw6rbktprpm6_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-design .water-resistance .image-hardware {
+        width: 378px;
+        height: 576px;
+        background-size: 378px 576px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_h2ok__dw6rbktprpm6_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-design .water-resistance .image-hardware {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_h2ok__dw6rbktprpm6_small_2x.jpg")
+    }
+}
+
+.section-design .section-design-materials .section-mini .image-mini {
+    width: 549px;
+    height: 1021px;
+    background-size: 549px 1021px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/design/design_mini__c06shv17wemq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-design .section-design-materials .section-mini .image-mini {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_mini__c06shv17wemq_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-design .section-design-materials .section-mini .image-mini {
+        width: 564px;
+        height: 1017px;
+        background-size: 564px 1017px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_mini__c06shv17wemq_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-design .section-design-materials .section-mini .image-mini {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_mini__c06shv17wemq_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-design .section-design-materials .section-mini .image-mini {
+        width: 459px;
+        height: 656px;
+        background-size: 459px 656px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_mini__c06shv17wemq_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-design .section-design-materials .section-mini .image-mini {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_mini__c06shv17wemq_small_2x.jpg")
+    }
+}
+
+.section-hands .compare .image-design-iphone-12 {
+    width: 291px;
+    height: 629px;
+    background-size: 291px 629px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/design/design_skinny__rvab4e8cyv2i_large.jpg");
+    position: absolute
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-hands .compare .image-design-iphone-12 {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_skinny__rvab4e8cyv2i_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hands .compare .image-design-iphone-12 {
+        width: 293px;
+        height: 649px;
+        background-size: 293px 649px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_skinny__rvab4e8cyv2i_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-hands .compare .image-design-iphone-12 {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_skinny__rvab4e8cyv2i_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hands .compare .image-design-iphone-12 {
+        width: 232px;
+        height: 529px;
+        background-size: 232px 529px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_skinny__rvab4e8cyv2i_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-hands .compare .image-design-iphone-12 {
+        background-image: url("/kr/iphone-12/d/images/overview/design/design_skinny__rvab4e8cyv2i_small_2x.jpg")
+    }
+}
+
+.section-hero .video-container {
+    width: 694px;
+    height: 647px;
+    background-size: 694px 647px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/hero/hero__et6f3ak6d1oy_large.jpg");
+    position: relative;
+    left: 50%;
+    margin-left: -347px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-hero .video-container {
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero__et6f3ak6d1oy_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hero .video-container {
+        width: 461px;
+        height: 430px;
+        background-size: 461px 430px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero__et6f3ak6d1oy_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-hero .video-container {
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero__et6f3ak6d1oy_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hero .video-container {
+        width: 313px;
+        height: 292px;
+        background-size: 313px 292px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero__et6f3ak6d1oy_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-hero .video-container {
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero__et6f3ak6d1oy_small_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hero .video-container {
+        left: 50%;
+        margin-left: -230.5px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hero .video-container {
+        left: 50%;
+        margin-left: -156.5px
+    }
+}
+
+.section-hero .video-container .startframe, .section-hero .video-container .endframe, .section-hero .video-container video {
+    display: none
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-camera {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/camera__gaz2y5mrghea_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-camera {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/camera__gaz2y5mrghea_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-clock {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/clock__cw0mrxyi9ree_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-clock {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/clock__cw0mrxyi9ree_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-files {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/files__bhil8baqqzgy_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-files {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/files__bhil8baqqzgy_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-health {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/health__fsesu5xvsvqu_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-health {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/health__fsesu5xvsvqu_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-home {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/home__bnegc0h7tryq_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-home {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/home__bnegc0h7tryq_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-news {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/news__etnu2ocreuc2_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-news {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/news__etnu2ocreuc2_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-photos {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/photos__epocvc49pswi_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-photos {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/photos__epocvc49pswi_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-stocks {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/stocks__f1n2ad3ebw6e_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-stocks {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/stocks__f1n2ad3ebw6e_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-weather {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/weather__bmgpdqv01biu_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-weather {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/weather__bmgpdqv01biu_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-widget-activity {
+    width: 178px;
+    height: 198px;
+    background-size: 178px 198px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-widget/activity__cmmfnkztfmuu_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-widget-activity {
+        width: 160px;
+        height: 178px;
+        background-size: 160px 178px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-widget/activity__cmmfnkztfmuu_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-widget-music {
+    width: 178px;
+    height: 198px;
+    background-size: 178px 198px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-widget/music__f4xl0wbehwey_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-widget-music {
+        width: 160px;
+        height: 178px;
+        background-size: 160px 178px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-widget/music__f4xl0wbehwey_medium.png")
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-chiclet-photos {
+    width: 68px;
+    height: 90px;
+    background-size: 68px 90px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/photos__epocvc49pswi_large.png")
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-chiclet-photos {
+        width: 62px;
+        height: 82px;
+        background-size: 62px 82px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-chiclet/photos__epocvc49pswi_medium.png")
+    }
+}
+
+.section-ios-14 .image-side-phone-right {
+    width: 250px;
+    height: 500px;
+    background-size: 250px 500px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app_clips__faiihom6lxei_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ios-14 .image-side-phone-right {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app_clips__faiihom6lxei_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ios-14 .image-side-phone-right {
+        width: 230px;
+        height: 462px;
+        background-size: 230px 462px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app_clips__faiihom6lxei_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ios-14 .image-side-phone-right {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app_clips__faiihom6lxei_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-ios-14 .image-side-phone-right {
+        width: 230px;
+        height: 462px;
+        background-size: 230px 462px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app_clips__faiihom6lxei_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-ios-14 .image-side-phone-right {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app_clips__faiihom6lxei_small_2x.jpg")
+    }
+}
+
+.section-ios-14 .image-side-phone-left {
+    width: 250px;
+    height: 500px;
+    background-size: 250px 500px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/pinned_conversations__bwn8twul4emu_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ios-14 .image-side-phone-left {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/pinned_conversations__bwn8twul4emu_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ios-14 .image-side-phone-left {
+        width: 230px;
+        height: 462px;
+        background-size: 230px 462px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/pinned_conversations__bwn8twul4emu_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ios-14 .image-side-phone-left {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/pinned_conversations__bwn8twul4emu_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-ios-14 .image-side-phone-left {
+        width: 230px;
+        height: 462px;
+        background-size: 230px 462px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/pinned_conversations__bwn8twul4emu_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-ios-14 .image-side-phone-left {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/pinned_conversations__bwn8twul4emu_small_2x.jpg")
+    }
+}
+
+.section-ios-14 .image-center-phone-static {
+    width: 250px;
+    height: 500px;
+    background-size: 250px 500px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/ios/widgets_static__bz9drr2nqvhy_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ios-14 .image-center-phone-static {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/widgets_static__bz9drr2nqvhy_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ios-14 .image-center-phone-static {
+        width: 230px;
+        height: 462px;
+        background-size: 230px 462px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/widgets_static__bz9drr2nqvhy_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ios-14 .image-center-phone-static {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/widgets_static__bz9drr2nqvhy_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-ios-14 .image-center-phone-static {
+        width: 230px;
+        height: 462px;
+        background-size: 230px 462px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/ios/widgets_static__bz9drr2nqvhy_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-ios-14 .image-center-phone-static {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/widgets_static__bz9drr2nqvhy_small_2x.jpg")
+    }
+}
+
+.section-magsafe .magsafe-click .media-video, .section-magsafe .magsafe-click .media-frame {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.section-magsafe .magsafe-click .media-video {
+    z-index: 1;
+    display: none
+}
+
+.section-magsafe .magsafe-click .media-frame {
+    width: 1168px;
+    height: 1120px;
+    background-size: 1168px 1120px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/magsafe/click_static__f9fcnqbi5d26_large.jpg");
+    z-index: 2
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-magsafe .magsafe-click .media-frame {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/click_static__f9fcnqbi5d26_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-magsafe .magsafe-click .media-frame {
+        width: 920px;
+        height: 880px;
+        background-size: 920px 880px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/click_static__f9fcnqbi5d26_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-magsafe .magsafe-click .media-frame {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/click_static__f9fcnqbi5d26_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-magsafe .magsafe-click .media-frame {
+        width: 520px;
+        height: 496px;
+        background-size: 520px 496px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/click_static__f9fcnqbi5d26_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-magsafe .magsafe-click .media-frame {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/click_static__f9fcnqbi5d26_small_2x.jpg")
+    }
+}
+
+
+.innovation-story.section-modal-5g .image-modal-5g {
+    background-size: 497px 353px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/modal/5g__strnqc8cxz62_large.jpg");
+    background-position: center bottom
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .innovation-story.section-modal-5g .image-modal-5g {
+        background-image: url("/kr/iphone-12/d/images/overview/modal/5g__strnqc8cxz62_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .innovation-story.section-modal-5g .image-modal-5g {
+        background-size: 348px 353px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/modal/5g__strnqc8cxz62_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .innovation-story.section-modal-5g .image-modal-5g {
+        background-image: url("/kr/iphone-12/d/images/overview/modal/5g__strnqc8cxz62_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .innovation-story.section-modal-5g .image-modal-5g {
+        background-size: 283px 347px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/modal/5g__strnqc8cxz62_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .innovation-story.section-modal-5g .image-modal-5g {
+        background-image: url("/kr/iphone-12/d/images/overview/modal/5g__strnqc8cxz62_small_2x.jpg")
+    }
+}
+
+.section-video .device-wrapper .device {
+    width: 983px;
+    height: 489px;
+    background-size: 983px 489px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_static__en17j1gfn002_large.jpg");
+    position: relative;
+    left: 50%;
+    margin-left: -491.5px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-video .device-wrapper .device {
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_static__en17j1gfn002_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-video .device-wrapper .device {
+        width: 698px;
+        height: 349px;
+        background-size: 698px 349px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_static__en17j1gfn002_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-video .device-wrapper .device {
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_static__en17j1gfn002_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-video .device-wrapper .device {
+        width: 238px;
+        height: 475px;
+        background-size: 238px 475px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_static__en17j1gfn002_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-video .device-wrapper .device {
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_static__en17j1gfn002_small_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-video .device-wrapper .device {
+        left: 50%;
+        margin-left: -349px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-video .device-wrapper .device {
+        left: 50%;
+        margin-left: -119px
+    }
+}
+
+html.enhance-base-xp.enhance-hero .section-hero .video-container .endframe {
+    position: absolute;
+    z-index: 3;
+    visibility: hidden;
+    opacity: 0;
+    width: 1188px;
+    height: 914px;
+    background-size: 1188px 914px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/hero/hero_endframe__fc7apyu3c7au_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .endframe {
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_endframe__fc7apyu3c7au_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .endframe {
+        width: 834px;
+        height: 728px;
+        background-size: 834px 728px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_endframe__fc7apyu3c7au_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .endframe {
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_endframe__fc7apyu3c7au_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .endframe {
+        width: 412px;
+        height: 508px;
+        background-size: 412px 508px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_endframe__fc7apyu3c7au_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .endframe {
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_endframe__fc7apyu3c7au_small_2x.jpg")
+    }
+}
+
+html.enhance-base-xp.enhance-hero .section-hero .video-container .startframe {
+    position: absolute;
+    z-index: 1;
+    width: 1188px;
+    height: 914px;
+    background-size: 1188px 914px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/hero/hero_startframe__gjx0olcpbkyi_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .startframe {
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_startframe__gjx0olcpbkyi_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .startframe {
+        width: 834px;
+        height: 728px;
+        background-size: 834px 728px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_startframe__gjx0olcpbkyi_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .startframe {
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_startframe__gjx0olcpbkyi_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .startframe {
+        width: 412px;
+        height: 508px;
+        background-size: 412px 508px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_startframe__gjx0olcpbkyi_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-hero .section-hero .video-container .startframe {
+        background-image: url("/kr/iphone-12/d/images/overview/hero/hero_startframe__gjx0olcpbkyi_small_2x.jpg")
+    }
+}
+
+html.enhance-base-xp.enhance-video-zoom .section-video .device-screen {
+    z-index: 1;
+    position: absolute;
+    top: var(--video-edit-screen-y);
+    left: var(--video-edit-screen-x);
+    width: 932px;
+    height: 432px;
+    background-size: 932px 432px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_screen__ejj4z8l3wok2_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-video-zoom .section-video .device-screen {
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_screen__ejj4z8l3wok2_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-base-xp.enhance-video-zoom .section-video .device-screen {
+        width: 660px;
+        height: 306px;
+        background-size: 660px 306px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_screen__ejj4z8l3wok2_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-video-zoom .section-video .device-screen {
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_screen__ejj4z8l3wok2_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.enhance-base-xp.enhance-video-zoom .section-video .device-screen {
+        width: 208px;
+        height: 450px;
+        background-size: 208px 450px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_screen__ejj4z8l3wok2_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-video-zoom .section-video .device-screen {
+        background-image: url("/kr/iphone-12/d/images/overview/video/video_edit_screen__ejj4z8l3wok2_small_2x.jpg")
+    }
+}
+
+.section-5g .image-5g-endframe {
+    width: 700px;
+    height: 1668px;
+    background-size: 700px 1668px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/5g/5g_endframe__fewcw55wtm6a_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-5g .image-5g-endframe {
+        background-image: url("/kr/iphone-12/d/images/overview/5g/5g_endframe__fewcw55wtm6a_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-5g .image-5g-endframe {
+        width: 564px;
+        height: 1334px;
+        background-size: 564px 1334px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/5g/5g_endframe__fewcw55wtm6a_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-5g .image-5g-endframe {
+        background-image: url("/kr/iphone-12/d/images/overview/5g/5g_endframe__fewcw55wtm6a_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-5g .image-5g-endframe {
+        width: 376px;
+        height: 890px;
+        background-size: 376px 890px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/5g/5g_endframe__fewcw55wtm6a_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-5g .image-5g-endframe {
+        background-image: url("/kr/iphone-12/d/images/overview/5g/5g_endframe__fewcw55wtm6a_small_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-5g .image-5g-endframe {
+        left: 50%;
+        margin-left: -282px;
+        position: relative
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-5g .image-5g-endframe {
+        left: 50%;
+        margin-left: -188px;
+        position: relative
+    }
+}
+
+/* 아름답게 착착 */
+.section-magsafe .subsection-stackable .media-container .media-frame {
+    background-size: 358px 786px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/magsafe/stackable_startframe__bkfhmzegr77m_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .section-magsafe .subsection-stackable .media-container .media-frame {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/stackable_startframe__bkfhmzegr77m_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-magsafe .subsection-stackable .media-container .media-frame {
+        background-size: 304px 662px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/stackable_startframe__bkfhmzegr77m_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-magsafe .subsection-stackable .media-container .media-frame {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/stackable_startframe__bkfhmzegr77m_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-magsafe .subsection-stackable .media-container .media-frame {
+        background-size: 208px 456px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/stackable_startframe__bkfhmzegr77m_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-magsafe .subsection-stackable .media-container .media-frame {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/stackable_startframe__bkfhmzegr77m_small_2x.jpg")
+    }
+}
+
+
+/* Charge */
+html.enhance-base-xp.enhance-magsafe-chargeable .section-magsafe .subsection-chargeable .media-video {
+    display: none;
+}
+
+.section-magsafe .subsection-chargeable .media-container .media-frame {
+    background-size: 850px 1108px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_large.jpg");
+    z-index: 2
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .section-magsafe .subsection-chargeable .media-container .media-frame {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-magsafe .subsection-chargeable .media-container .media-frame {
+        background-size: 662px 862px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-magsafe .subsection-chargeable .media-container .media-frame {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-magsafe .subsection-chargeable .media-container .media-frame {
+        background-size: 520px 670px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-magsafe .subsection-chargeable .media-container .media-frame {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_small_2x.jpg")
+    }
+}
+
+html.enhance-base-xp.enhance-magsafe-chargeable .section-magsafe .subsection-chargeable .media-container {
+    background-size: 850px 1108px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_large.jpg");
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-magsafe-chargeable .section-magsafe .subsection-chargeable .media-container {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-base-xp.enhance-magsafe-chargeable .section-magsafe .subsection-chargeable .media-container {
+        background-size: 662px 862px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-magsafe-chargeable .section-magsafe .subsection-chargeable .media-container {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.enhance-base-xp.enhance-magsafe-chargeable .section-magsafe .subsection-chargeable .media-container {
+        background-size: 520px 670px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    html.enhance-base-xp.enhance-magsafe-chargeable .section-magsafe .subsection-chargeable .media-container {
+        background-image: url("/kr/iphone-12/d/images/overview/magsafe/charge_endframe__fkmfmu47yqeu_small_2x.jpg")
+    }
+}
+
+.escalator {
+    display: none !important;
+}
+
+#hardware-turn {
+    display: none !important;
+}
+
+html.enhance-base-xp.enhance-fiveg .section-5g .wrapper-sticky .image-5g-endframe {
+    display: block !important;
+}
+
+#ac-globalfooter .ac-gf-icon-after::after, #ac-globalfooter .ac-gf-more::after {
+    top: -1.4px;
+}
+
+.icon-wrapper .icon, .icon-wrapper .more::after, .icon-wrapper .icon-before::before, .icon-wrapper .icon-after::after {
+    position: relative;
+}
+
+body .icon-wrapper .icon-after::after, body .icon-wrapper .more::after {
+    top: -1.4px;
+    display: inline;
+}
+
+.custom-no-pdl::after {
+    padding-left: 0;
+}
+
+.accessories-magsafe-copy-body.column.large-6.small-12.small-order-1 {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .accessories-magsafe-copy-body.column.large-6.small-12.small-order-1 {
+        margin-top: 53px;
+    }
+}
+
+html.enhance-ios-14 .section-ios-14 .image-app-widget-photos {
+    background-image: url("/kr/iphone-12/d/images/overview/ios/app-widget/photos__epocvc49pswi_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.enhance-ios-14 .section-ios-14 .image-app-widget-photos {
+        background-image: url("/kr/iphone-12/d/images/overview/ios/app-widget/photos__epocvc49pswi_medium.png");
+    }
+    .section-buystrip-hero .buystrip-hero-module {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-buystrip-hero .buystrip-hero-module {
+        max-width: 290px;
+    }
+}
+.icon.icon-after.icon.icon-playcircle::after {
+    top: 0;
+}
+
+.section-hero .hero-preorder-12::after {
+    padding-right: .37em;
+}
+
+@media only screen and (max-width: 480px) {
+    .section-modal.section-modal-5g.innovation-story .modal-headline.typography-modal-headline {
+        font-size: 39px;
+    }
+    .custom-empty {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 320px) and (max-height: 568px){
+    .se-paddings-bottom {
+        padding-bottom: 80px;
+    }
+    .no-enhance-chip .se-paddings-bottom {
+        padding-bottom: 0;
+    }
+}
+
+.custom-no-mt-top {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 734px) {
+    .accessories-magsafe-copy-body.column.large-6.small-12.small-order-1 {
+        margin-top: 0;
+    }
+}
