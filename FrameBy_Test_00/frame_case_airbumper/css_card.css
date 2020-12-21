@@ -1,0 +1,18 @@
+html {
+    height: 100vh;
+  }
+  
+  body {
+    height: 500vh;
+    background: #fff;
+  }
+  
+  canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: auto;
+    max-height: auto;
+    display: block;
+  }
