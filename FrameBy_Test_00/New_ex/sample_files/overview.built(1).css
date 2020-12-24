@@ -1,0 +1,69 @@
+.icon-wrapper .more::after,
+#ac-globalfooter .ac-gf-more::after{
+    position: relative;
+    top: -.08em;
+}
+
+/* Headings */
+    .intro-headline:lang(ko) {
+        line-height: 1;
+    }
+
+    @media only screen and (max-width: 734px) {
+        .intro-headline:lang(ko) {
+            line-height: 1.2;
+        }
+    }
+
+/* Copies */
+
+@media only screen and (min-width: 1069px){
+    .typography-hero-intro:lang(ko)  {
+        line-height: 1.5;
+    }
+
+    .typography-headline-super:lang(ko),
+    .typography-section-subhead:lang(ko) {
+        line-height: 1.265;
+    }
+
+    .typography-section-intro:lang(ko),
+    .typography-design-caption:lang(ko),
+    .typography-body-1:lang(ko){
+        line-height: 1.43;
+    }
+
+    .typography-headline:lang(ko) {
+        line-height: 1.32;
+    }
+
+}
+
+.section-experience .near-section .case-headline {
+    line-height: 1.05;
+}
+
+
+/* XS horizontal bar issue */
+
+@media only screen and (max-width: 734px) {
+    .typography-listening-time-stat {
+        font-size: 245px;
+    }
+}
+
+/* AR */
+
+
+
+@media only screen and (min-width: 735px) {
+    .augmented-reality-router .copy {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .augmented-reality-router .copy {
+        padding-bottom: unset;
+    }
+}s
