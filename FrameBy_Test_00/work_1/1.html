@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Frame By Magsafe</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/default.css">
+    <style>
+        @charset 'utf-8'
+
+html {
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+body {
+    overflow-x: hidden;
+    color: rgb(29, 29,29);
+    letter-spacing: -0.05em;
+    background: white;
+}
+p {
+    line-height: 1.6;
+}
+a {
+    color: rgb(29, 29,31);
+    text-decoration: none;
+}
+.global-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 44px;
+    padding: 0 1rem;
+}
+.local-nav {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    height: 52px;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 1rem;
+}
+.global-nav-links,
+.local-nav-links {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.global-nav-links {
+    justify-content: space-between;
+}
+.local-nav-links .product-name {
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.local-nav-links a {
+    font-size: 0.8rem;
+}
+.local-nav-links a:not(.product-name) {
+    margin-left: 2em;
+}
+.scroll-section {
+    border: 3px solid red;
+    padding-top: 50vh;
+}
+#scroll-section-0 h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+.main-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35vh;
+    margin: 5px 0;
+    height: 3em;
+    font-size: 2.5rem;
+    opacity: 0;
+}
+.main-message p {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+}
+.main-message small {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+}
+#scroll-section-2 .main-message {
+    font-size: 3.5rem;
+}
+.description {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    color: #888888;
+}
+.description strong {
+    float: left;
+    margin-right: 0.2em;
+    font-size: 3rem;
+    color: rgb(29, 29, 30)
+}
+.desc-message {
+    width: 50%;
+    font-weight: bold;
+}
+.pin {
+    width: 1px;
+    height: 100px;
+    background: rgb(29, 29,29);
+}
+#scroll-section-2 .b{
+    top: 10%;
+    left: 40%;
+}
+#scroll-section-2 .c{
+    top: 15%;
+    left: 45%;
+}
+.mid-message {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 2rem;
+    color: #888888;
+}
+.mid-message strong {
+    color: rgb(29, 29,29);
+}
+.canvas-caption {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    color: #888888;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    color: white;
+    font-weight: bold;
+    background: #888888;
+}
+.sticky-elem {
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+#show-scene-0 #scroll-section-0 .sticky-elem,
+#show-scene-1 #scroll-section-1 .sticky-elem,
+#show-scene-2 #scroll-section-2 .sticky-elem,
+#show-scene-3 #scroll-section-3 .sticky-elem {
+    display: block;
+}
+.sticky-elem-canvas {
+    top: 0;
+    background: #cccccc;
+}
+
+
+@media (min-width: 1024px) {
+    #scroll-section-0 h1 {
+        font-size: 12vw;
+    }
+    .main-message {
+        font-size: 5.5vw;
+    }
+    .description {
+        font-size: 2rem;
+    }
+    .description strong {
+        font-size: 8rem;
+        line-height: 110%;
+    }
+    #scroll-section-2 .main-message {
+        font-size: 6vw;
+    }
+    .main-message small {
+        font-size: 1.5vw;
+    }
+    .desc-message {
+        width: 15%;
+    }
+    #scroll-section-2 .b{
+        left: 55%;
+    }
+    #scroll-section-2 .c{
+        top: 15%;
+        left: 45%;
+    }
+    .mid-message {
+        font-size: 4vw;
+        line-height: 120%;
+    }
+    .canvas-caption{
+        font-size: 2rem;
+    }
+}
+    </style>
+</head>
+<body>
+	<div class="container">
+		<nav class="global-nav">
+			<div class="global-nav-links">
+				<a href="#" class="global-nav-item">Frame Case</a>
+				<a href="#" class="global-nav-item">ID BY</a>
+				<a href="#" class="global-nav-item">Stand Case</a>
+				<a href="#" class="global-nav-item">Gallery</a>
+			</div>
+		</nav>  
+		<nav class="local-nav">
+			<div class="local-nav-links">
+				<a href="#" class="product-name">Magsafe Air</a>
+				<a href="#">제품호환</a>
+				<a href="#">구입하기</a>
+			</div>
+		</nav>
+		<section class="scroll-section" id="scroll-section-0">
+			<h1>Magsafe Air</h1>
+			<div class="sticky-elem main-message a">
+				<p>카드 수납의 기능성과<br>안전성에 더하여,</p>
+			</div>
+			<div class="sticky-elem main-message b">
+				<p>맥세이프까지 담아낸<br>완전히 새로운 케이스.</p>
+			</div>
+			<div class="sticky-elem main-message c">
+				<p>마침내,<br> 프레임케이스에</p>
+			</div>
+			<div class="sticky-elem main-message d">
+				<p>맥세이프 에어가 <Br> 찾아왔습니다.</p>
+			</div>
+		</section>
+		<section class="scroll-section" id="scroll-section-1">
+			<P class="description">
+				<strong>사용자의 의도대로 반응하다.</strong>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum quam maiores, veniam excepturi vero, eveniet unde obcaecati dolor impedit eligendi, reprehenderit quae perspiciatis. Autem maiores eos magni corrupti animi voluptatum numquam perspiciatis non omnis, suscipit at eveniet, voluptate officia. Cupiditate provident nesciunt voluptatem? Iure vero quos eius. Tenetur facere excepturi provident, enim, voluptate ea cum nam nihil aperiam officia rerum voluptatem consequuntur, quidem exercitationem eius delectus corporis blanditiis quae ullam. Harum impedit voluptatum dicta modi laborum aperiam totam, nostrum, error, beatae ratione odit pariatur? Dolores, laboriosam fugiat! Impedit officia velit officiis alias aperiam, natus hic ab rerum iure eveniet molestias tenetur voluptatibus nisi dolores sunt quibusdam enim ipsam voluptas corrupti veritatis non ullam consequatur quasi laboriosam? Corporis eligendi iure at eos tempore vitae quo dignissimos, animi soluta maxime error sunt incidunt commodi tempora eius in quos eaque maiores sapiente consequuntur modi accusantium perspiciatis? Hic commodi, cum quae eum quisquam nobis, repellat similique ratione aliquam omnis nesciunt magnam deserunt? Praesentium quo vitae veritatis voluptates in inventore suscipit voluptas delectus, ducimus vero voluptatem eveniet provident expedita neque quasi nemo alias tenetur vel saepe? Nemo similique provident ipsam, aperiam illo quis iusto suscipit et magnam quasi quaerat soluta blanditiis in natus corrupti.
+			</P>
+		</section>
+		<section class="scroll-section" id="scroll-section-2">
+
+			<div class="sticky-elem main-message a">
+				<p>
+					<small>압도적 카드 수납</small>
+					두 장의 카드를<br>수납 할 수 있는 구조.
+				</p>
+			</div>
+			<div class="sticky-elem desc-message b">
+				<p>
+					일상 속 편리함을 극대화 하였습니다. 또한, 후면 부착 후에도 별도의 탈착없이 두 장의 카드를 쉽게 수납할 수 있습니다.					
+				</p>
+				<div class="pin"></div>
+			</div>
+			<div class="sticky-elem desc-message c">
+				<p>
+					일상 속 편리함을 극대화 하였습니다. 또한, 후면 부착 후에도 별도의 탈착없이 두 장의 카드를 쉽게 수납할 수 있습니다.					
+				</p>
+				<div class="pin"></div>
+			</div>
+		</section>
+		<section class="scroll-section" id="scroll-section-3">
+			<p class="mid-message">
+				<strong>정교한 구조 고급스러운 마감</strong>
+				일치하도록 자석의 위치와 자력의 세기를 정교하게 설계.
+			</p>
+			<p class="canvas-caption">
+				자력의 세기와 자석과 카드와의 거리를 일정하게 조절하여 카드를 자성으로부터 안전하게 보호합니다. 맥세이프 자석 전면과 후면에 각각 메탈 스티커를 배치함으로써 마감의 완성도를 높였습니다. 또한, 각도에 따라 변하는 재질의 특성이 더해져서 한 차원 높은 고급스러움을 선사합니다.
+			</p>
+		</section>
+		<footer class="footer">
+			2021. FrameBy 
+		</footer>
+	</div>
+
+    <script>
+        (() => {
+
+let yOffset = 0; // window.pageYOffset 대신 쓸 변수
+let prevScrollHeight = 0; // 현재 스크롤 위치 (yOffset)보다 이전에 위치한 스크롤 섹션들의 높이값의 합
+let currentScene = 0; //현재 활성화된(눈 앞에 보고 있는) 씬(scroll-section)
+let enterNewScene = false; // 새로운 scene이 시작된 순간 true   
+
+
+
+// sceneInfo 추가내용 적용 후
+const sceneInfo = [
+{
+    // 0
+    type: 'sticky',
+    heightNum: 5, // 브라우저 높이의 5배로 scrollHeight 세팅
+    scrollHeight: 0,
+    objs: {
+        container: document.querySelector('#scroll-section-0'),
+        messageA: document.querySelector('#scroll-section-0 .main-message.a'),
+        messageB: document.querySelector('#scroll-section-0 .main-message.b'),
+        messageC: document.querySelector('#scroll-section-0 .main-message.c'),
+        messageD: document.querySelector('#scroll-section-0 .main-message.d')
+    },
+    values: {
+        messageA_opacity_in: [0, 1, { start: 0.1, end: 0.2 }],
+        messageB_opacity_in: [0, 1, { start: 0.3, end: 0.4 }],
+        messageC_opacity_in: [0, 1, { start: 0.5, end: 0.6 }],
+        messageD_opacity_in: [0, 1, { start: 0.7, end: 0.8 }],
+        messageA_translateY_in: [20, 0, { start: 0.1, end: 0.2 }],
+        messageB_translateY_in: [20, 0, { start: 0.3, end: 0.4 }],
+        messageC_translateY_in: [20, 0, { start: 0.5, end: 0.6 }],
+        messageD_translateY_in: [20, 0, { start: 0.7, end: 0.8 }],
+        messageA_opacity_out: [1, 0, { start: 0.25, end: 0.3 }],
+        messageB_opacity_out: [1, 0, { start: 0.45, end: 0.5 }],
+        messageC_opacity_out: [1, 0, { start: 0.65, end: 0.7 }],
+        messageD_opacity_out: [1, 0, { start: 0.85, end: 0.9 }],
+        messageA_translateY_out: [0, -20, { start: 0.25, end: 0.3 }],
+        messageB_translateY_out: [0, -20, { start: 0.45, end: 0.5 }],
+        messageC_translateY_out: [0, -20, { start: 0.65, end: 0.7 }],
+        messageD_translateY_out: [0, -20, { start: 0.85, end: 0.9 }]
+    }
+},
+{
+    // 1
+    type: 'normal',
+    // heightNum: 5, // type normal에서는 필요 없음
+    scrollHeight: 0,
+    objs: {
+        container: document.querySelector('#scroll-section-1'),
+        content: document.querySelector('#scroll-section-1 .description')
+    }
+},
+{
+    // 2
+    type: 'sticky',
+    heightNum: 5,
+    scrollHeight: 0,
+    objs: {
+        container: document.querySelector('#scroll-section-2'),
+        messageA: document.querySelector('#scroll-section-2 .a'),
+        messageB: document.querySelector('#scroll-section-2 .b'),
+        messageC: document.querySelector('#scroll-section-2 .c'),
+        pinB: document.querySelector('#scroll-section-2 .b .pin'),
+        pinC: document.querySelector('#scroll-section-2 .c .pin')
+    },
+    values: {
+        messageA_translateY_in: [20, 0, { start: 0.15, end: 0.2 }],
+        messageB_translateY_in: [30, 0, { start: 0.5, end: 0.55 }],
+        messageC_translateY_in: [30, 0, { start: 0.72, end: 0.77 }],
+        messageA_opacity_in: [0, 1, { start: 0.15, end: 0.2 }],
+        messageB_opacity_in: [0, 1, { start: 0.5, end: 0.55 }],
+        messageC_opacity_in: [0, 1, { start: 0.72, end: 0.77 }],
+        messageA_translateY_out: [0, -20, { start: 0.3, end: 0.35 }],
+        messageB_translateY_out: [0, -20, { start: 0.58, end: 0.63 }],
+        messageC_translateY_out: [0, -20, { start: 0.85, end: 0.9 }],
+        messageA_opacity_out: [1, 0, { start: 0.3, end: 0.35 }],
+        messageB_opacity_out: [1, 0, { start: 0.58, end: 0.63 }],
+        messageC_opacity_out: [1, 0, { start: 0.85, end: 0.9 }],
+        pinB_scaleY: [0.5, 1, { start: 0.5, end: 0.55 }],
+        pinC_scaleY: [0.5, 1, { start: 0.72, end: 0.77 }],
+        pinB_opacity_in: [0, 1, { start: 0.5, end: 0.55 }],
+        pinC_opacity_in: [0, 1, { start: 0.72, end: 0.77 }],
+        pinB_opacity_out: [0, 1, { start: 0.58, end: 0.63 }],
+        pinC_opacity_out: [0, 1, { start: 0.85, end: 0.9 }],
+    }
+},
+
+{
+    // 3
+    type: 'sticky',
+    heightNum: 5,
+    scrollHeight: 0,
+    objs: {
+        container: document.querySelector('#scroll-section-3'),
+        canvasCaption: document.querySelector('.canvas-caption')
+    },
+    values: {
+
+    }
+}
+];
+
+
+function setLayout() {
+    // 각 스크롤 섹션의 높이 세팅
+    for (let i = 0; i < sceneInfo.length; i++) {
+        if (sceneInfo[i].type === 'sticky') {
+            sceneInfo[i].scrollHeight = sceneInfo[i].heightNum * window.innerHeight;
+        } else if (sceneInfo[i].type === 'normal')  {
+            sceneInfo[i].scrollHeight = sceneInfo[i].objs.content.offsetHeight + window.innerHeight * 0.5;
+        }
+        sceneInfo[i].objs.container.style.height = `${sceneInfo[i].scrollHeight}px`;
+    }
+
+    yOffset = window.pageYOffset;
+
+    let totalScrollHeight = 0;
+    for (let i = 0; i < sceneInfo.length; i++) {
+        totalScrollHeight += sceneInfo[i].scrollHeight;
+        if (totalScrollHeight >= yOffset) {
+            currentScene = i;
+            break;
+        }
+    }
+    document.body.setAttribute('id', `show-scene-${currentScene}`);
+} 
+
+function calcValues(values, currentYOffset) {
+    let rv;
+    //현재 씬 (스크롤 섹션)에서 스크롤퇸 범위를 비율로 구하기
+    const scrollHeight = sceneInfo[currentScene].scrollHeight;
+    const scrollRatio = currentYOffset / scrollHeight;
+    
+    if (values.length === 3) {
+        // start ~ end 사이에 애니메이션 실행
+        const partScrollStart = values[2].start * scrollHeight;
+        const partScrollEnd = values[2].end * scrollHeight;
+        const partScrollHeight = partScrollEnd - partScrollStart;
+        
+        if (currentYOffset >= partScrollStart && currentYOffset <= partScrollEnd) {
+            rv = (currentYOffset - partScrollStart) / partScrollHeight * (values[1] - values[0]) + values[0];
+        } else if (currentYOffset < partScrollStart) {
+            rv = values[0]; 
+        } else if (currentYOffset > partScrollEnd) {
+            rv = values[1];
+        }
+    } else {
+        rv = scrollRatio * (values[1] - values[0]) + values[0];
+    }
+    
+    return rv;
+}
+
+// playAnimation 추가내용 적용 후
+function playAnimation() {
+const objs = sceneInfo[currentScene].objs;
+const values = sceneInfo[currentScene].values;
+const currentYOffset = yOffset - prevScrollHeight;
+const scrollHeight = sceneInfo[currentScene].scrollHeight;
+const scrollRatio = currentYOffset / scrollHeight;
+
+switch (currentScene) {
+    case 0:
+        // console.log('0 play');
+        if (scrollRatio <= 0.22) {
+            // in
+            objs.messageA.style.opacity = calcValues(values.messageA_opacity_in, currentYOffset);
+            objs.messageA.style.transform = `translate3d(0, ${calcValues(values.messageA_translateY_in, currentYOffset)}%, 0)`;
+        } else {
+            // out
+            objs.messageA.style.opacity = calcValues(values.messageA_opacity_out, currentYOffset);
+            objs.messageA.style.transform = `translate3d(0, ${calcValues(values.messageA_translateY_out, currentYOffset)}%, 0)`;
+        }
+
+        if (scrollRatio <= 0.42) {
+            // in
+            objs.messageB.style.opacity = calcValues(values.messageB_opacity_in, currentYOffset);
+            objs.messageB.style.transform = `translate3d(0, ${calcValues(values.messageB_translateY_in, currentYOffset)}%, 0)`;
+        } else {
+            // out
+            objs.messageB.style.opacity = calcValues(values.messageB_opacity_out, currentYOffset);
+            objs.messageB.style.transform = `translate3d(0, ${calcValues(values.messageB_translateY_out, currentYOffset)}%, 0)`;
+        }
+
+        if (scrollRatio <= 0.62) {
+            // in
+            objs.messageC.style.opacity = calcValues(values.messageC_opacity_in, currentYOffset);
+            objs.messageC.style.transform = `translate3d(0, ${calcValues(values.messageC_translateY_in, currentYOffset)}%, 0)`;
+        } else {
+            // out
+            objs.messageC.style.opacity = calcValues(values.messageC_opacity_out, currentYOffset);
+            objs.messageC.style.transform = `translate3d(0, ${calcValues(values.messageC_translateY_out, currentYOffset)}%, 0)`;
+        }
+
+        if (scrollRatio <= 0.82) {
+            // in
+            objs.messageD.style.opacity = calcValues(values.messageD_opacity_in, currentYOffset);
+            objs.messageD.style.transform = `translate3d(0, ${calcValues(values.messageD_translateY_in, currentYOffset)}%, 0)`;
+        } else {
+            // out
+            objs.messageD.style.opacity = calcValues(values.messageD_opacity_out, currentYOffset);
+            objs.messageD.style.transform = `translate3d(0, ${calcValues(values.messageD_translateY_out, currentYOffset)}%, 0)`;
+        }
+
+        break;
+
+        case 2:
+        // console.log('2 play');
+        if (scrollRatio <= 0.32) {
+            // in
+            objs.messageA.style.opacity = calcValues(values.messageA_opacity_in, currentYOffset);
+            objs.messageA.style.transform = `translate3d(0, ${calcValues(values.messageA_translateY_in, currentYOffset)}%, 0)`;
+        } else {
+            // out
+            objs.messageA.style.opacity = calcValues(values.messageA_opacity_out, currentYOffset);
+            objs.messageA.style.transform = `translate3d(0, ${calcValues(values.messageA_translateY_out, currentYOffset)}%, 0)`;
+        }
+
+        if (scrollRatio <= 0.67) {
+            // in
+            objs.messageB.style.transform = `translate3d(0, ${calcValues(values.messageB_translateY_in, currentYOffset)}%, 0)`;
+            objs.messageB.style.opacity = calcValues(values.messageB_opacity_in, currentYOffset);
+            objs.pinB.style.transform = `scaleY(${calcValues(values.pinB_scaleY, currentYOffset)})`;
+        } else {
+            // out
+            objs.messageB.style.transform = `translate3d(0, ${calcValues(values.messageB_translateY_out, currentYOffset)}%, 0)`;
+            objs.messageB.style.opacity = calcValues(values.messageB_opacity_out, currentYOffset);
+            objs.pinB.style.transform = `scaleY(${calcValues(values.pinB_scaleY, currentYOffset)})`;
+        }
+
+        if (scrollRatio <= 0.93) {
+            // in
+            objs.messageC.style.transform = `translate3d(0, ${calcValues(values.messageC_translateY_in, currentYOffset)}%, 0)`;
+            objs.messageC.style.opacity = calcValues(values.messageC_opacity_in, currentYOffset);
+            objs.pinC.style.transform = `scaleY(${calcValues(values.pinC_scaleY, currentYOffset)})`;
+        } else {
+            // out
+            objs.messageC.style.transform = `translate3d(0, ${calcValues(values.messageC_translateY_out, currentYOffset)}%, 0)`;
+            objs.messageC.style.opacity = calcValues(values.messageC_opacity_out, currentYOffset);
+            objs.pinC.style.transform = `scaleY(${calcValues(values.pinC_scaleY, currentYOffset)})`;
+        }
+
+        break;
+
+        case 3:
+            //console.log('3 play')
+            break;
+    }
+}
+
+function scrollLoop() { 
+    enterNewScene = false;
+    prevScrollHeight = 0;
+    for (let i = 0; i < currentScene; i++){
+        prevScrollHeight += sceneInfo[i].scrollHeight;
+    }
+
+    if (yOffset > prevScrollHeight + sceneInfo[currentScene].scrollHeight) {
+        enterNewScene = true;
+        currentScene++;
+        document.body.setAttribute('id', `show-scene-${currentScene}`);
+    }
+
+    if (yOffset < prevScrollHeight) {
+        if (currentScene === 0) return; // 브라우저 바운스 효과로 인해 마이너스가 되는 것을 방지(모바일)
+        enterNewScene = true;
+        currentScene--;
+        document.body.setAttribute('id', `show-scene-${currentScene}`);
+    }    
+
+    if (enterNewScene) return;
+
+    playAnimation();
+
+}
+
+window.addEventListener('scroll', () => {
+    yOffset = window.pageYOffset;
+    scrollLoop(); 
+});
+// window.addEventListener('DOMContntLoaded', setLayout);
+window.addEventListener('load', setLayout);
+window.addEventListener('resize', setLayout);
+
+})();
+    </script>
+	
+</body>
+</html>

@@ -1,0 +1,232 @@
+@charset 'utf-8'
+
+html {
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+body {
+    overflow-x: hidden;
+    color: rgb(29, 29,29);
+    letter-spacing: -0.05em;
+    background: white;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('※'),
+    url('../fonts/Roboto-Regular.eot'),
+    url('../fonts/Roboto-Regular.eot#iefix') format('embedded-opentype')
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.otf') format('opentype'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
+}
+p {
+    line-height: 1.6;
+}
+a {
+    color: rgb(29, 29,31);
+    text-decoration: none;
+}
+.global-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 44px;
+    padding: 0 1rem;
+}
+.local-nav {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    height: 52px;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 1rem;
+}
+.global-nav-links,
+.local-nav-links {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+.global-nav-links {
+    justify-content: space-between;
+}
+.local-nav-links .product-name {
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.local-nav-links a {
+    font-size: 0.8rem;
+}
+.local-nav-links a:not(.product-name) {
+    margin-left: 2em;
+}
+.scroll-section {
+    padding-top: 50vh;
+}
+#scroll-section-0 h1 {
+    position: relative;
+    top: -10vh;
+    z-index: 5;
+    font-size: 4rem;
+    text-align: center;
+}
+.main-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35vh;
+    margin: 5px 0;
+    height: 3em;
+    font-size: 2.5rem;
+    opacity: 0;
+}
+.main-message p {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+}
+.main-message small {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+}
+#scroll-section-2 .main-message {
+    font-size: 3.5rem;
+}
+.description {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    color: #888888;
+}
+.description strong {
+    float: left;
+    margin-right: 0.2em;
+    font-size: 3rem;
+    color: rgb(29, 29, 30)
+}
+.desc-message {
+    width: 50%;
+    font-weight: bold;
+    opacity: 0;
+}
+.pin {
+    width: 1px;
+    height: 100px;
+    background: rgb(29, 29,29);
+}
+#scroll-section-2 .b{
+    top: 10%;
+    left: 40%;
+}
+#scroll-section-2 .c{
+    top: 15%;
+    left: 45%;
+}
+.mid-message {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 2rem;
+    color: #888888;
+}
+.mid-message strong {
+    color: rgb(29, 29,29);
+}
+.canvas-caption {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    color: #888888;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    color: white;
+    font-weight: bold;
+    background: #888888;
+}
+.sticky-elem {
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+#show-scene-0 #scroll-section-0 .sticky-elem,
+#show-scene-1 #scroll-section-1 .sticky-elem,
+#show-scene-2 #scroll-section-2 .sticky-elem,
+#show-scene-3 #scroll-section-3 .sticky-elem {
+    display: block;
+}
+.sticky-elem-canvas {
+    top: 0;
+    height: 100%;
+    background: #eaeaea;
+}
+
+.sticky-elem-canvas canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.image-blend-canvas {
+    background: blue;
+}
+#scoll-section-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    #scroll-section-0 h1 {
+        font-size: 12vw;
+    }
+    .main-message {
+        font-size: 5.5vw;
+    }
+    .description {
+        font-size: 2rem;
+    }
+    .description strong {
+        font-size: 8rem;
+        line-height: 110%;
+    }
+    #scroll-section-2 .main-message {
+        font-size: 6vw;
+    }
+    .main-message small {
+        font-size: 1.5vw;
+    }
+    .desc-message {
+        width: 15%;
+    }
+    #scroll-section-2 .b{
+        left: 55%;
+    }
+    #scroll-section-2 .c{
+        top: 15%;
+        left: 45%;
+    }
+    .mid-message {
+        font-size: 4vw;
+        line-height: 120%;
+    }
+    .canvas-caption{
+        font-size: 2rem;
+    }
+}
