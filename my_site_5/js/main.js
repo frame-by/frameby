@@ -126,7 +126,7 @@
 		let imgElem;
 		for (let i = 0; i < sceneInfo[0].values.videoImageCount; i++) {
 			imgElem = new Image();
-			imgElem.src = `./img/003/IMG_${1001 + i}.jpg`;
+			imgElem.src = `https://frame-by.github.io/frameby/my_site_5/img/003/IMG_${1001 + i}.jpg`;
 			sceneInfo[0].objs.videoImages.push(imgElem);
 		}
 
