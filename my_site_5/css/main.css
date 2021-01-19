@@ -24,6 +24,7 @@ body.before-load {
 .container {
 	/* iPhone 가로 스크롤 방지 */
 	overflow-x: hidden;
+	z-index: -100;
 }
 .global-nav {
 	position: absolute;
