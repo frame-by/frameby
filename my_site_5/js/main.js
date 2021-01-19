@@ -153,16 +153,16 @@
 		}
 	}
 
-	function setLayout() {
-		// 각 스크롤 섹션의 높이 세팅
-		for (let i = 0; i < sceneInfo.length; i++) {
-			if (sceneInfo[i].type === 'sticky') {
-				sceneInfo[i].scrollHeight = sceneInfo[i].heightNum * window.innerHeight;
-			} else if (sceneInfo[i].type === 'normal')  {
-				sceneInfo[i].scrollHeight = sceneInfo[i].objs.content.offsetHeight + window.innerHeight * 0.5;
-			}
-            sceneInfo[i].objs.container.style.height = `${sceneInfo[i].scrollHeight}px`;
-		}
+	// function setLayout() {
+	// 	// 각 스크롤 섹션의 높이 세팅
+	// 	for (let i = 0; i < sceneInfo.length; i++) {
+	// 		if (sceneInfo[i].type === 'sticky') {
+	// 			sceneInfo[i].scrollHeight = sceneInfo[i].heightNum * window.innerHeight;
+	// 		} else if (sceneInfo[i].type === 'normal')  {
+	// 			sceneInfo[i].scrollHeight = sceneInfo[i].objs.content.offsetHeight + window.innerHeight * 0.5;
+	// 		}
+    	//         sceneInfo[i].objs.container.style.height = `${sceneInfo[i].scrollHeight}px`;
+	// 	}
 
 		yOffset = window.pageYOffset;
 
