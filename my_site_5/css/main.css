@@ -222,6 +222,7 @@ body.before-load {
 }
 .before-load .container {
     display: flex;
+    padding: 500px;
 }
 .before-load .loading {
 	opacity: 1;
