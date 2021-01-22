@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+    <head>  
+        <meta charset="utf-8">  
+        <meta name="keywords" content="">  
+        <meta name="description" content="">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <link rel="canonical" href="http://setTheBaseURLInProjectSettings.com/index.html" />
+        <meta name="robots" content="index, follow" />  
+        <link rel="shortcut icon" type="image/png" href="favicon.png">  
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?5483"><link rel="stylesheet" type="text/css" href="style.css?9655">  
+        <style>
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 500vh;
+  background: #000;
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+}
+        </style>
+        <title>Home</title>  
+        
+        <!-- Analytics --> 
+        
+        <!-- Analytics END -->  
+    
+    </head>
+    
+    <body>
+        <!-- Preloader -->
+        
+        <div id="page-loading-blocs-notifaction" class="page-preloader">
+
+        </div>
+        <!-- Preloader END -->
+       
+        <!-- Main container -->
+        <div class="page-container">  
+            <!-- bloc-0 -->
+            <div class="bloc bgc-white bloc-fill-screen l-bloc" id="bloc-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+
+                        </div>
+                    </div>
+                </div>
+            </div
+            ><!-- bloc-0 END -->
+            <!-- bloc-1 -->
+            
+            <div class="bloc bgc-white bloc-fill-screen l-bloc" id="bloc-1">
+                <div class="container"><div class="row"><div class="col"></div></div></div></div><!-- bloc-1 END --><!-- bloc-2 --><div class="bloc bgc-white bloc-fill-screen l-bloc" id="bloc-2"
+                ><div class="container"><div class="row"><div class="col"></div></div></div></div><!-- bloc-2 END --><!-- bloc-3 --><div class="bloc bgc-white bloc-fill-screen l-bloc" id="bloc-3">
+                    <div class="container"><div class="row"><div class="col"></div></div></div></div><!-- bloc-3 END --><!-- bloc-4 --><div class="bloc bgc-white bloc-fill-screen l-bloc" id="bloc-4">
+                        <div class="container"><div class="row"><div class="col"></div></div></div></div><!-- bloc-4 END --><!-- bloc-5 --><div class="bloc bgc-white bloc-fill-screen l-bloc " id="bloc-5">
+                            <div class="container"><div class="row"><div class="col"></div></div></div></div><!-- bloc-5 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a><!-- ScrollToTop Button END--></div><!-- Main container END -->  <!-- Additional JS -->
+    
+    <script src="./js/jquery-3.5.1.min.js?3625"></script><script src="./js/bootstrap.bundle.min.js?8438"></script><script src="./js/blocs.min.js?7645"></script><script src="./js/lazysizes.min.js" defer></script>
+    
+    
+    
+    <canvas id="hero-lightpass" /> </canvas>
+    <script>
+        const html = document.documentElement;
+const canvas = document.getElementById("hero-lightpass");
+const context = canvas.getContext("2d");
+
+const frameCount = 148;
+const currentFrame = index => (
+  `https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/01-hero-lightpass/${index.toString().padStart(4, '0')}.jpg`
+)
+
+const preloadImages = () => {
+  for (let i = 1; i < frameCount; i++) {
+    const img = new Image();
+    img.src = currentFrame(i);
+  }
+};
+
+const img = new Image()
+img.src = currentFrame(1);
+canvas.width=1158;
+canvas.height=770;
+img.onload=function(){
+  context.drawImage(img, 0, 0);
+}
+
+const updateImage = index => {
+  img.src = currentFrame(index);
+  context.drawImage(img, 0, 0);
+}
+
+window.addEventListener('scroll', () => {  
+  const scrollTop = html.scrollTop;
+  const maxScrollTop = html.scrollHeight - window.innerHeight;
+  const scrollFraction = scrollTop / maxScrollTop;
+  const frameIndex = Math.min(
+    frameCount - 1,
+    Math.ceil(scrollFraction * frameCount)
+  );
+  
+  requestAnimationFrame(() => updateImage(frameIndex + 1))
+});
+
+preloadImages()
+    </script>
+
+    
+    
+
+    <!-- Additional JS END -->
+
+
+
+</body></html>
