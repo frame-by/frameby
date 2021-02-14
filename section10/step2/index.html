@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<title>깡코딩 - 초보자도 만들 수 있는 스크를인터렉션1편</title>
+<link rel="stylesheet" type="text/css" href="../../library/css/common.css">
+<script type="text/javascript" src="../../library/js/jquery.1.12.4.js"></script>
+</head>
+<style type="text/css">
+/* common */
+.wrap {position:relative;}
+.inner {max-width:1100px; height: 100%;  margin: 0 auto;}
+.com_tit01 {font-family: 'NotoB'; font-size:120px; color:#fff; text-align: center;}
+.com_txt01 {max-width:70%; margin:0 auto; font-family: 'NotoR'; font-size:32px; color:#fff; text-align: center;;}
+
+/* main */
+
+/* 타이틀 */
+.fix_tit {position: fixed; left:50%; top:50%; z-index:100; font-family: 'NotoB'; font-size:80px; line-height: 1; color:#fff; transform:translate(-50%, -50%); -webkit-transform:translate(-50%, -50%); -moz-transform:translate(-50%, -50%); -o-transform:translate(-50%, -50%); -ms-transform:translate(-50%, -50%); opacity: .6;}
+.fix_tit span {position: absolute; right:0; top:-30px; font-size:30px; font-family: 'NotoM'; border-bottom:3px solid rgba(255,255,255,.6);}
+.fix_tit.black {color:#000; transition:color .5s}
+.fix_tit.black span {border-color: rgba(000,000,000,.6);}
+
+/* 섹션, 네비게이션 */
+.ggang_section {overflow: hidden; height: 1440px; background-size:cover;}
+.ggang_section.fixed {background-attachment: fixed;}
+
+.nav_list {position:fixed; right:50px; top:50%; z-index:1000; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%);}
+.nav_list li {margin-bottom:15px;}
+.nav_list li a {position:relative; display:block; color:#fff; transition:.5s; -webkit-transition:.5s; -moz-transition:.5s; -o-transition:.5s; -ms-transition:.5s;}
+.nav_list li a .fa {position:absolute; left:-20px; top:5px; width:16px; height:16px; background-image:url('../images/icon_p.png'); background-size:cover; background-position: 0px 0px; transition:transform .5s; -webkit-transition:transform .5s; -moz-transition:transform .5s; -o-transition:transform .5s; -ms-transition:transform .5s; }
+.nav_list li a.active {color:#f0582b;}
+.nav_list li a.active .fa {background-position: 0px 16px; transform:rotate(360deg);}
+.nav_list li a:hover, .nav_list li a:focus {color:#f0582b; text-decoration: none;}
+</style>
+<body>
+    <div class="wrap">
+        <h2 class="fix_tit"> <!-- 타이틀 -->
+            <span>HELLO :D</span>
+            <strong>GGANG CODING</strong>
+        </h2>
+        <section id="a" class="ggang_section fixed" style="background-image: url('../images/1.jpg')"></section>
+        <section id="b" class="ggang_section" style="background-image: url('../images/2.jpg')"></section>
+        <section id="c" class="ggang_section" style="background-image: url('../images/3.jpg')"></section>
+        <section id="d" class="ggang_section fixed" style="background-image: url('../images/4.jpg')"></section>
+        <section id="e" class="ggang_section" style="background-image: url('../images/5.jpg')"></section>
+        <section id="f" class="ggang_section" style="background-image: url('../images/6.jpg')"></section>
+        <section id="g" class="ggang_section" style="background-image: url('../images/7.jpg')"></section>
+        <section id="h" class="ggang_section" style="background-image: url('../images/8.jpg')"></section>
+        <ul class="nav_list"> <!-- 네비게이션 -->
+            <li>
+                <a href="#a" class="active">
+                    <i class="fa"></i>
+                    <span>MUSIC</span>
+                </a>
+            </li>
+            <li>
+                <a href="#b">
+                    <i class="fa"></i>
+                    <span>LADY</span>
+                </a>
+            </li>
+            <li>
+                <a href="#c">
+                    <i class="fa"></i>
+                    <span>CITY</span>
+                </a>
+            </li>
+            <li>
+                <a href="#d">
+                    <i class="fa"></i>
+                    <span>BUILDING</span>
+                </a>
+            </li>
+            <li>
+                <a href="#e">
+                    <i class="fa"></i>
+                    <span>BLUE SKY</span>
+                </a>
+            </li>
+            <li>
+                <a href="#f">
+                    <i class="fa"></i>
+                    <span>LONELY</span>
+                </a>
+            </li>
+            <li>
+                <a href="#g">
+                    <i class="fa"></i>
+                    <span>ELEGANCE</span>
+                </a>
+            </li>
+            <li>
+                <a href="#h">
+                    <i class="fa"></i>
+                    <span>SPACE</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!--
+****** 2020 깡코딩 LICENSE 안내 ******
+이 프로그램은 저작권법의 보호를 받습니다.
+이 프로그램은 깡코딩 강의를 수강한 수강생들에게 무료로 제공됩니다.
+이 프로그램은 웹,앱 프로젝트에 자유롭게 사용할 수 있지만
+웹사이트, 커뮤니티, 블로그에 배포하거나 인터넷 강의, 유튜브등 유료 무료 강좌에 배포, 사용하는
+행위는 민사 및 형사법에 의해 엄격히 규제되어 있으며, 기소 사유가 됩니다.
+-->
+<script>
+/* 스크립트를 작성하세요 */
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
