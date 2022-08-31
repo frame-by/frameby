@@ -1,0 +1,21 @@
+.frameby-btn {text-align: center; width: 100%;}
+
+.frameby-area{position: relative; z-index: 50; max-width: 100%; width: 100%; margin: 0 auto;}
+
+.frameby-area-img{max-width: 22%; width: 100%; margin: 0 auto; }
+.frameby-area-img-inner{max-width: 100%; margin: 0 auto; display: flex; justify-content: center;}
+.frameby-area-img-inner-1{width: 100%;position: relative;}
+.frameby-img-frame-1{opacity:10%; mix-blend-mode: multiply;}
+.frameby-img-frame-2{opacity:100%; mix-blend-mode: color-burn;}
+#Frame {opacity:100%; mix-blend-mode: hard-light; position: absolute;top: 0;left: 0;display: block;}
+#frame-cover {position: absolute; top: 0; left: 0; display: block; opacity: 50%;}
+#card_img_area {position: absolute;top: 0;left: 0;max-width: 100% ;width: 100%;}
+
+.frameby-area-btn{background-color: #fff; position: relative; z-index: 10;}
+.frameby-area-btn-1{max-width: 25%; width: 100%; margin: 0 auto;}
+.frameby-area-btn-1-1 {max-width: 40%; width: 100%; margin: 0 auto; display: flex;justify-content: space-around;z-index: 10; margin-bottom: 10px;}
+#frameby-area-btn-2 {max-width: 100%; margin: 0 auto;}
+
+#frameby-area-btn-3 {display: none; max-width: 100%; margin: 0 auto;}
+.frameby-area-btn-3-1 {width: 80% ;margin: 0 auto;}
+.frameby-area-btn-3-1-1 {display: flex; justify-content: space-around;}
